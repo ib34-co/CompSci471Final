@@ -1,0 +1,4 @@
+torch
+numpy
+pillow
+matplotlib  # optional, only for loss_curve.png
