@@ -1,0 +1,10 @@
+Our model, in its current state, can take in the cartoon-made tank images and, from that, is able to disseminate whether it is a tank or not.
+It has been able to do this so far with a 100% success rate, given images of vehicles ranging from tanks to various APCs and transport vehicles. 
+At this current rate, given the small and very minimalistic dataset, it is easy to see how it can be successful, as there is a total of 40 objects,
+with 6 being used for final evaluations. Some final test results show that, out of the 6 given images, it had 3 true positives and 3 true negatives,
+along with a training vs. validation loss curve showing how, after about 60 run-throughs of the model, our validation and training get closer and 
+closer to being more exact at about 10% to 15%, meaning our model is more confident in itself and more correct. Improvements to be made would be 
+greatly expanding the dataset to include even more types of vehicles and even civilian vehicles, as well as adding very specific vehicles to 
+confuse the model, such as tracked APCs or IFVs, such as a Bradley. Overall, work done: Ilan Brejt was responsible for updating the final 
+project guide, as well as creating the prompt to design the model and creating the write-up. Grant Stec utilized the prompt to create the model
+utilizing Claude and, furthermore, conducted the testing of the model that resulted in the training vs. validation graph and the confusion matrix.
